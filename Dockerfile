@@ -133,7 +133,6 @@ libtool \
 make \
 cmake && \
 dnf clean all && \
-# dnf remove epel-release -y && \
 # remove cache
 rm -rf /tmp/* /var/cache/{yum,ldconfig} /etc/my.cnf{,.d} && \
 mkdir -p --mode=0755 /var/cache/{yum,ldconfig} && \
